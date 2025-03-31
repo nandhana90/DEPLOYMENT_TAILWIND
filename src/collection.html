@@ -1,0 +1,154 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="bg-orange-100">
+
+    <div class="bg-orange-500 shadow-xl z-50  text-white align-middle p-5 top-0 left-0 fixed w-full">
+
+
+        <div class="container mx-auto ">
+            <div class="flex justify-between">
+                <img src="../assrets/images.jpg" height="50px" width="50px" alt="">
+                <div class="ul md">
+                    <ul class="md:flex hidden md:block  text-center justify-between md:w-80 ">
+                        <li><a class="md:text-xl  hover:text-black " href="index.html">Home</a></li>
+                        <li><a class="md:text-xl  hover:text-black" href="#">Collection</a></li>
+                        <li><a class="md:text-xl  hover:text-black" href="index.html">fishes</a></li>
+
+                    </ul>
+                </div>
+                <div onclick="burgeron()" class="md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                        <path fill="#fff" d="M3 7v2h26V7zm0 4v2h26v-2zm0 4v2h26v-2zm0 4v2h26v-2zm0 4v2h26v-2z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="sidenav -left-96 bg-orange-300 w-1/2 h-full md:hidden fixed transition-all duration-500">
+        <div onclick="burgeroff()">
+            <p class="mt-2 ml-44"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                    <path fill="#fff"
+                        d="m13.281 6.781l-8.5 8.5l-.687.719l.687.719l8.5 8.5l1.438-1.438L7.938 17H28v-2H7.937l6.782-6.781z" />
+                </svg></p>
+        </div>
+        <div class="nav-links  text-center  list-none">
+            <p class="mb-32 "><a class="text-2xl  text-white  hover:text-black " href="index.html">Home</a></p>
+            <p class="mb-32"><a class="text-2xl text-white hover:text-black " href="">Collection</a></p>
+            <p class="mb-32"><a class="text-2xl text-white hover:text-black" href="#index.html">fishes</a></p>
+
+        </div>
+    </div>
+
+    
+<section id="search">
+    <div class="container mx-auto mt-24">
+    <div id="searh"class="text-center" >
+        <form action="">
+       <input id="search" class="w-3/4 h-10 border border-2 border-black border-rounded border-solid" type=" text" placeholder="Search">
+        </form>
+    </div>
+    </div>
+    <h1 class="text-3xl text-center pt-2">What to buy????</h1>
+    <div id="product" class="container mt-32  grid mx-auto text-center md:grid-cols-4 gap-4 grid-cols-1">
+        <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">goldfish</h1>
+          </div>
+
+           <div class="mx-auto text-center">
+            <img height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl" >blackmamba</h1>
+            
+          </div>
+
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">dragon</h1>
+          </div>
+
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">cherry</h1>
+          </div>
+
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">blackretiver</h1>
+          </div>
+
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">shell</h1>
+          </div>
+
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">fishes</h1>
+          </div>
+           
+          <div class="mx-auto text-center">
+            <img  height="300px" width="300px" src="../assrets/fish1.jpeg" alt="">
+            <h1 class="text-xl">jelly</h1>
+          </div>
+
+    </div>
+</section>
+    
+
+<footer class="bg-black mt-32 w-full   text-white text-center">
+         <div class="container mt- mx-auto">
+            <div class="box-1">Aquacharm</div>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odio?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, nam.</p>
+         <div class="iconss flex p-10   justify-center ">
+            <svg class="ml-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#fff" d="M11.469 5C7.918 5 5 7.914 5 11.469v9.062C5 24.082 7.914 27 11.469 27h9.062C24.082 27 27 24.086 27 20.531V11.47C27 7.918 24.086 5 20.531 5zm0 2h9.062A4.463 4.463 0 0 1 25 11.469v9.062A4.463 4.463 0 0 1 20.531 25H11.47A4.463 4.463 0 0 1 7 20.531V11.47A4.463 4.463 0 0 1 11.469 7m10.437 2.188a.9.9 0 0 0-.906.906c0 .504.402.906.906.906a.9.9 0 0 0 .907-.906a.9.9 0 0 0-.907-.906M16 10c-3.3 0-6 2.7-6 6s2.7 6 6 6s6-2.7 6-6s-2.7-6-6-6m0 2c2.223 0 4 1.777 4 4s-1.777 4-4 4s-4-1.777-4-4s1.777-4 4-4"/></svg>
+            <svg  class="ml-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#fff" d="M28 8.559a9.8 9.8 0 0 1-2.828.773a4.94 4.94 0 0 0 2.164-2.723a9.9 9.9 0 0 1-3.125 1.196a4.924 4.924 0 0 0-8.52 3.367q0 .582.13 1.121A13.96 13.96 0 0 1 5.67 7.148a4.9 4.9 0 0 0-.667 2.477c0 1.707.867 3.215 2.191 4.098a4.9 4.9 0 0 1-2.23-.618v.063a4.92 4.92 0 0 0 3.95 4.828a4.9 4.9 0 0 1-2.224.086a4.93 4.93 0 0 0 4.598 3.422A9.88 9.88 0 0 1 4 23.539a13.9 13.9 0 0 0 7.547 2.215c9.058 0 14.012-7.504 14.012-14.012c0-.21-.008-.426-.016-.637A10.1 10.1 0 0 0 28 8.56z"/></svg>
+            <svg  class="ml-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path fill="#fff" d="M19.254 2C15.312 2 13 4.082 13 8.826V13H8v5h5v12h5V18h4l1-5h-5V9.672C18 7.885 18.583 7 20.26 7H23V2.205C22.526 2.141 21.145 2 19.254 2"/></svg>
+        </div>
+        
+        </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+<script src="collection.js"></script>
+
+<script>
+    var sidenav = document.querySelector(".sidenav")
+
+    function burgeron() {
+        sidenav.style.left = "0"
+
+    }
+    function burgeroff() {
+        sidenav.style.left = "-96%"
+    }
+</script>
+</body>
+</html>
